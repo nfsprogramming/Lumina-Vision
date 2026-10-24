@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environments & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+.env*.local
+*.pem
+*.key
+
+# Temporary files, tests & logs
+reproduce_issue.py
+test_*.py
+endpoint_*.txt
+*.log
+
+# Node & Frontend
+node_modules/
+.eslintcache
+
+# Operating System & IDE junk
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
